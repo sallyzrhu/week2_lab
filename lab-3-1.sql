@@ -1,5 +1,8 @@
 -- How many teams played in the league in each year?
-
+-- semi column only at the end
+-- what's in GROUP BY always in SELECT
+SELECT year, COUNT(*) FROM teams
+GROUP BY year;
 -- Expected result: 150 rows, ending with
 --
 -- | 2011 | 30       |

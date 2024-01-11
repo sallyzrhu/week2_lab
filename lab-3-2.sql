@@ -1,5 +1,8 @@
 -- For each team, what is the average number of wins per season, in the 21st century?
-
+-- CODE INCORRECT, TBU 
+SELECT name, AVG(wins) 
+FROM teams AVG (wins) 
+WHERE year > = 2000
 -- Expected result:
 --
 -- +-------------------------------+------------------+
